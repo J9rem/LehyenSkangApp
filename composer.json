@@ -21,6 +21,11 @@
     "minimum-stability": "dev",
     "require": {
         "php": "^7.2.5||^8.1",
+        "ext-dom": "*",
+        "ext-filter": "*",
+        "ext-json": "*",
+        "ext-mbstring": "*",
+        "ext-pcre": "*",
         "picocms/pico": "dev-pico-3.0"
     },
     "config": {
