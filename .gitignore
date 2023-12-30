@@ -1,0 +1,44 @@
+# SPDX-License-Identifier: EUPL-1.2
+# Authors: Jeremy Dufraisse 2023
+
+# logs
+*.log
+
+# Folder except required
+*/
+!src/
+!src/**
+!.github/
+!.github/**
+!docs/
+!docs/**
+
+# Composer
+/vendor/*
+
+# Node modules
+node_modules
+
+# Macintosh OS
+/.DS_Store
+
+# Eclipse IDE
+/.buildpath
+/.project
+/.settings/
+
+# PHPStorm IDE
+/.idea
+/**.iml
+
+# vscode IDE
+/*.vscode
+
+# Docker
+/*.db
+/docker-compose.local.yml
+
+# archive files
+/*.zip
+/*.bz2
+/*.gz
