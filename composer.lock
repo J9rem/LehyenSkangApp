@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d4d88c10ab3c6bc829fa5c69c00b93e0",
+    "content-hash": "471915dbfd3c7572d6f8d27338ecb413",
     "packages": [
         {
             "name": "erusev/parsedown",
@@ -116,6 +116,75 @@
                 "source": "https://github.com/erusev/parsedown-extra/tree/v2.0.0-beta-1"
             },
             "time": "2022-05-21T21:46:56+00:00"
+        },
+        {
+            "name": "picocms/composer-installer",
+            "version": "dev-pico-3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/picocms/composer-installer.git",
+                "reference": "8e59c0f0ab55af384b4a788179de4e169bb1f60e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/picocms/composer-installer/zipball/8e59c0f0ab55af384b4a788179de4e169bb1f60e",
+                "reference": "8e59c0f0ab55af384b4a788179de4e169bb1f60e",
+                "shasum": ""
+            },
+            "require": {
+                "composer-plugin-api": "^2.1",
+                "php": ">=7.2"
+            },
+            "type": "composer-plugin",
+            "extra": {
+                "class": "picocms\\ComposerInstaller\\Plugin",
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev",
+                    "dev-pico-3.0": "2.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "picocms\\ComposerInstaller\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Daniel Rudolf",
+                    "email": "picocms.org@daniel-rudolf.de",
+                    "role": "Lead Developer"
+                },
+                {
+                    "name": "The Pico Community",
+                    "homepage": "https://picocms.org/"
+                },
+                {
+                    "name": "Contributors",
+                    "homepage": "https://github.com/picocms/composer-installer/graphs/contributors"
+                }
+            ],
+            "description": "A composer plugin responsible for installing plugins and themes for Pico, a stupidly simple, blazing fast, flat file CMS.",
+            "homepage": "https://picocms.org/",
+            "keywords": [
+                "composer",
+                "composer-installer",
+                "composer-plugin",
+                "pico",
+                "pico-cms",
+                "picocms",
+                "picocms-installer",
+                "picocms-plugin",
+                "picocms-theme"
+            ],
+            "support": {
+                "issues": "https://github.com/picocms/composer-installer/issues",
+                "source": "https://github.com/picocms/composer-installer"
+            },
+            "time": "2022-02-27T16:50:04+00:00"
         },
         {
             "name": "picocms/pico",
@@ -2426,6 +2495,7 @@
     ],
     "minimum-stability": "dev",
     "stability-flags": {
+        "picocms/composer-installer": 20,
         "picocms/pico": 20
     },
     "prefer-stable": true,

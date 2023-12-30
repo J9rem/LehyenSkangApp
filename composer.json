@@ -28,6 +28,7 @@
         "ext-pcre": "*",
         "erusev/parsedown": "2.0.0-beta-1 as 1.7.4",
         "erusev/parsedown-extra": "2.0.0-beta-1 as 0.8.1",
+        "picocms/composer-installer": "dev-pico-3.0",
         "picocms/pico": "dev-pico-3.0"
     },
     "config": {
